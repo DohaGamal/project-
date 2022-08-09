@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>singup</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- /////////////////////////////SING UP PAGE///////////////////////////////// -->
+    <div class="contanier">
+      <img src="img/background.png" style="width: 40%" alt="" />
+      <div class="form">
+        <form class="form-page">
+          <h1 class="head">IMPEKABLE</h1>
+          <p class="para">Please complete to create your account.</p>
+          <div class="f-l" style="display: flex">
+            <input
+              type="text"
+              class="input"
+              placeholder="FirstName"
+              style="margin-right: 20px"
+              required
+            autofocus
+            />
+            <input type="text" class="input" placeholder="LastName" required />
+          </div>
+          <input type="text" class="input" placeholder="UserName" required />
+          <input type="email" class="input" placeholder="Email" required />
+          <input
+            type="password"
+            class="input"
+            placeholder="password"
+            maxlength="15"
+            minlength="8"
+            required
+          />
+          <input
+            type="password"
+            class="input"
+            placeholder="Confirm password"
+            required
+          />
+          <div class="check-b">
+            <input type="checkbox" class="checkbox" />
+            <span class="checkbox-span">I agree with terms and conditions</span>
+          </div>
+          <input type="submit" class="login" value="Sign up" />
+
+          <div class="link">
+            <a class="checkbox-span">Already have an account? Sign in.</a>
+          </div>
+          <div class="footer">Term of use. Privacy policy</div>
+        </form>
+      </div>
+      <!-- <div class="footer">Term of use. Privacy policy</div> -->
+    </div>
+  </body>
+</html>
